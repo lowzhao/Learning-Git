@@ -12,22 +12,17 @@ If you never used command line interface before(... and didn't plan to learn any
 Let's start simple.
 
 So every command will start with `git *` something.
+
 `*` will be the thing that we are discussing.
+
 `[]` this will be the part where variable will be placed in, the words inside it will define what to put into.
 
-# The initiation command;
 
-## `git init [project-name]`
-> This command __initiate a new project__.
-- This command is not usually used as people will create them on some version control service(Eg. GitHub). 
-- `clone _URL_` will usually be your starting point.
+## TLDR; (Your main 5 commands)
+## `git clone [url]` 
+> to __clone a repo__
+## `git add .` >> `git commit -m "[message]"` >> `git push`
+> to __push a commit__
+## `git pull` 
+> to __pull updates__
 
-## `git clone [url]`
-> Used to __clone a remote repository__ through the `url` 
-- This command can be used to clone(copy) the repository(projects) from sources on the version control service.
-- Try to clone this project by running `git clone https://github.com/lowzhao/learningGit.git`.
-- Always put your username in the link. Eg. `https://[username]@github.com/lowzhao/learningGit.git` This will prevent git from asking you to type the password.
-
-# The configuration command;
-
-## `git `
