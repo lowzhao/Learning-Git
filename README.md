@@ -13,8 +13,6 @@ Let's start simple.
 
 So every command will start with `git *` something.
 
-`*` will be the thing that we are discussing.
-
 `[]` this will be the part where variable will be placed in, the words inside it will define what to put into.
 
 
