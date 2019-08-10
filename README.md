@@ -24,3 +24,9 @@ So every command will start with `git *` something.
 ## `git pull` 
 > to __pull updates__
 
+## `git log`
+> to __see logs__
+## `git reset --hard <COMMIT_CODE>`
+> to __revert to a particular commit__
+> remember this does not affect the `origin/master` we need to `git push --force` to overwrite master
+
